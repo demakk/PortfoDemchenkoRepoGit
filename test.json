@@ -1,0 +1,57 @@
+{
+    "user": {
+      "id": 12345,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "90210"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "555-1234"
+        },
+        {
+          "type": "work",
+          "number": "555-5678"
+        }
+      ],
+      "preferences": {
+        "newsletter": true,
+        "notifications": {
+          "email": true,
+          "sms": false
+        }
+      }
+    },
+    "order": {
+      "id": 98765,
+      "date": "2024-05-27",
+      "items": [
+        {
+          "productId": 111,
+          "name": "Widget",
+          "quantity": 2,
+          "price": 19.99
+        },
+        {
+          "productId": 222,
+          "name": "Gadget",
+          "quantity": 1,
+          "price": 29.99
+        }
+      ],
+      "total": 69.97,
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "90210"
+      },
+      "status": "shipped"
+    }
+  }
+  
