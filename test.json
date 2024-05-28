@@ -20,7 +20,7 @@
         }
       ],
       "preferences": {
-        "newsletter": true,
+        "newsletter": false,
         "notifications": {
           "email": true,
           "sms": false
